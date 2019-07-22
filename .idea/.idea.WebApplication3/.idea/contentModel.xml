@@ -7,6 +7,11 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="WebApplication3" t="IncludeRecursive">
         <e p="app.config" t="Include" />
+        <e p="App_Data" t="Include">
+          <e p="background.jpeg" t="Include" />
+          <e p="error_page.jpeg" t="Include" />
+          <e p="uploads" t="Include" />
+        </e>
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -14,6 +19,7 @@
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="CustomerModel.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -34,8 +40,10 @@
           <e p="Home" t="Include">
             <e p="About.cshtml" t="Include" />
             <e p="Contact.cshtml" t="Include" />
+            <e p="ErrorPage.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
+            <e p="Reports.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_CookieConsentPartial.cshtml" t="Include" />

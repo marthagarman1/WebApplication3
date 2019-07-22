@@ -36,11 +36,13 @@ namespace WebApplication3.Controllers
             return View();
         }
 
+        //Stores error and displays error page 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult ErrorPage()
         {
-                
+              
             return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
         }
+      
     }
 }

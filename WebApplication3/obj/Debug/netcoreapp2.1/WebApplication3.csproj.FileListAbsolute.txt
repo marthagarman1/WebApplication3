@@ -31,3 +31,5 @@
 /Users/marthakaitlingarman/RiderProjects/WebApplication3/WebApplication3/obj/Debug/netcoreapp2.1/WebApplication3.dll
 /Users/marthakaitlingarman/RiderProjects/WebApplication3/WebApplication3/obj/Debug/netcoreapp2.1/WebApplication3.pdb
 /Users/marthakaitlingarman/RiderProjects/WebApplication3/WebApplication3/obj/Debug/netcoreapp2.1/WebApplication3.csproj.CopyComplete
+/Users/marthakaitlingarman/RiderProjects/WebApplication3/WebApplication3/obj/Debug/netcoreapp2.1/Razor/Views/Home/ErrorPage.g.cshtml.cs
+/Users/marthakaitlingarman/RiderProjects/WebApplication3/WebApplication3/obj/Debug/netcoreapp2.1/Razor/Views/Home/Reports.g.cshtml.cs
